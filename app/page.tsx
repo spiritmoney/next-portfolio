@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Media from './components/Media'
 import Hero from './components/Hero'
+import Quote from './components/Quote'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       </div>
       <Header />
       <Hero />
+      <Quote />
     </div>
   )
 }

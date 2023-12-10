@@ -4,10 +4,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='mt-[123px] ml-[171px] flex justify-center items-center w-[1024px] h-[423px]'>
+    <section className='mt-[123px] ml-[220px] flex justify-center items-center w-[1024px] h-[423px]'>
             <div className='w-[537px] h-[227px] flex-shrink-0 mt-[74px] mx-[171px] mb-[122px] '>
                 <p className='w-[537px] text-[32px] font-semibold'>
-                    <span className='text-white'>King is a </span>
+                    <span className='text-white'>Kingsley is a </span>
                     <span className='text-[#C778DD]'>blockchain engineer</span>
                     <span className='text-white'> and</span>
                     <span className='text-[#C778DD]'> frontend developer</span>
