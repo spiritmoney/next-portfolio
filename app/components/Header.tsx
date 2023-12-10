@@ -3,18 +3,18 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <nav className='flex items-center justify-center'>
+    <nav className='flex items-center justify-center sticky z-10'>
       <div className='flex w-[1024px] h-[61px] bg-[#282C33] pt-[32px] pb-[8px] justify-between mx-[171px]'>
         <div className='flex justify-center items-center cursor-pointer space-x-3'>
           <Image
           className=' -my-6'
-            src={'/logo.svg'}
+            src={'/ko.png'}
             alt='Logo'
-            width={16}
-            height={17}
+            width={25}
+            height={20}
             
           />
-          <p className='font-fira-code text-white text-lg font-semibold'>King</p>
+          <p className='font-fira-code text-white text-lg font-semibold'>King Odim</p>
         </div>
           <div className=' flex font-fira-code text-lg text-[#ABB2BF] space-x-[32px] '>
             <div className='flex justify-normal'>
