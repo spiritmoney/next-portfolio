@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Media = () => {
   return (
-    <div className=' ml-[17px] absolute'>
+    <div className=' hidden lg:block ml-[17px] absolute'>
         <div className='pl-[17px] flex flex-col space-y-2 justify-center items-center'>
         <Image 
             src={'/line10.svg'}
