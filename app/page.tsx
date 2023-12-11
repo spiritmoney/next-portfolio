@@ -6,7 +6,7 @@ import Quote from './components/Quote'
 
 const page = () => {
   return (
-    <div className='bg-[rgb(40,44,51)] w-full h-[3192px] '>
+    <div className='bg-[rgb(40,44,51)] w-full h-[3192px] overflow-hidden '>
       <div className='flex justify-start items-start'>
       <Media />
       </div>

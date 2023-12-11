@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <nav className='flex items-center justify-center fixed px-3'>
-      <div className='flex w-[1024px] h-[61px] bg-[#282C33] pt-[32px] pb-[8px] justify-between ml-[271px]'>
+    <nav className='flex items-center justify-center px-3'>
+      <div className='flex w-[1024px] h-[61px] bg-[#282C33] pt-[32px] pb-[8px] justify-between ml-[50px]'>
         <div className='flex justify-center items-center cursor-pointer space-x-3'>
           <Image
           className=' -my-6'
             src={'/ko.png'}
             alt='Logo'
-            width={25}
-            height={20}
+            width={30}
+            height={25}
             
           />
           <p className='font-fira-code text-white text-lg font-semibold'>Kingsley Odim</p>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='mt-[123px] ml-[220px] flex justify-center items-center w-[1024px] h-[423px]'>
+    <section className='mt-[123px] mx-[150px] flex justify-center items-center h-[423px]'>
             <div className='w-[537px] h-[227px] flex-shrink-0 mt-[74px] mx-[171px] mb-[122px] '>
                 <p className='w-[537px] text-[32px] font-semibold'>
                     <span className='text-white'>Kingsley is a </span>
@@ -13,7 +13,7 @@ const Hero = () => {
                     <span className='text-[#C778DD]'> frontend developer</span>
                 </p>
                 <p className='mt-[32px] mb-[32px] text-[#ABB2BF]'>He crafts responsive websites where technologies meet creativity</p>
-                <Link href='/contact'>
+                <Link href='/contacts'>
                     <button className='border border-[#C778DD] text-white px-[16px] py-[8px] hover:bg-[#C778DD] hover:text-white transition duration-150'>Contact me!!</button>
                 </Link>
             </div>
